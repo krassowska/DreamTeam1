@@ -1,0 +1,64 @@
+/*Color palette: http://colrd.com/image-dna/23291/
+#f88aaf
+#a1d8b1
+#edfcc2
+#60bdae
+#455655
+*/
+
+body {
+  background-color: #edfcc2;
+  color: #455655;
+  font-family: 'Rubik', verdana, arial, sans-serif;
+}
+header {
+  background-color: #a1d8b1;
+  color: #455655;
+}
+.name {
+  font-size: 20px;
+}
+.navigation {
+  font-size: 20px;
+  height: 0;
+  position: relative;
+  left: 450px;
+  top: -60px;
+}
+.navigation li {
+  margin: 5px 20px;
+}
+.photos {
+  width: 99%;
+  height: 150px;
+  background-color: #f88aaf;
+}
+.placenav li {
+  width: 250px;
+  margin: 5px 5px;
+  padding: 8px;
+  border: 2px solid grey;
+  border-radius: 5px;
+}
+section {
+  position: relative;
+  left: 350px;
+  top: -320px;
+}
+ul.navigation li {
+  display: inline-block;
+  padding-right: 10px;
+}
+li {
+  /*Remove bullet points */
+  list-style: none;
+  margin: 5px;
+}
+.placenav {
+  position: relative;
+  left: 0;
+}
+footer {
+  background-color: #455655;
+  color: #edfcc2;
+}
