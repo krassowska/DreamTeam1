@@ -34,7 +34,7 @@ header {
   background-color: #f88aaf;
 }
 .placenav li {
-  width: 250px;
+  width: 20%;
   margin: 5px 5px;
   padding: 8px;
   border: 2px solid grey;
@@ -44,6 +44,7 @@ section {
   position: relative;
   left: 350px;
   top: -320px;
+  width: 80%;
 }
 ul.navigation li {
   display: inline-block;
@@ -60,7 +61,7 @@ li {
 }
 main p {
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
 }
 .options {
   height: 100px;
