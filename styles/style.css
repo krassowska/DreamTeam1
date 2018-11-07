@@ -58,7 +58,68 @@ li {
   position: relative;
   left: 0;
 }
+main p {
+  text-align: center;
+  font-size: 30px;
+}
+.options {
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+.button {
+  /*https://www.w3schools.com/css/css3_buttons.asp*/
+  background-color: #a1d8b1;
+  border: none;
+  color: #455655;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #455655;
+}
+/*Changing color*/
+.button:hover {
+  background-color: #a1d8b1;
+  color: #455655;
+}
 footer {
   background-color: #455655;
   color: #edfcc2;
+}
+
+/*https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 15px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
 }
