@@ -9,7 +9,8 @@
   <body>
     <header class="places">
       <div class="name">
-        <h1>Find your dream place!</h1>
+        <img src="images/sun2.png" alt="logo"><!--This comment delete white space
+        --><h1>Find your dream place!</h1>
       </div><!--This comment delete white space
       --><nav>
         <ul class="navigation">
@@ -21,60 +22,97 @@
     </header>
     <main>
       <div class="photos">
-        Here you can find photos in the future
-        <img src="" alt="">
+        <img src="images/Poland-1.jpg" alt="Polish Mountains">
+        <img src="images/Poland-19.jpg">
+        <img src="images/Poland-21.jpg">
+        <img src="images/Poland-18.jpg">
+        <img src="images/Poland-2.jpg" alt="Polish Mountains">
+        <img src="images/Poland-17.jpg">
+        <img src="images/Poland-16.jpg">
+        <img src="images/Poland-3.jpg" alt="Polish Mountains">
+        <img src="images/Poland-12.jpg">
+        <img src="images/Poland-4.jpg" alt="Polish Mountains">
+        <img src="images/Poland-13.jpg">
+        <img src="images/Poland-22.jpg">
+        <img src="images/Poland-20.jpg" alt="Torun, Poland">
+        <img src="images/Poland-5.jpg" alt="Polish Mountains">
+        <img src="images/Poland-11.jpg">
+        <img src="images/Poland-6.jpg" alt="Polish Mountains">
+        <img src="images/Poland-10.jpg">
+        <img src="images/Poland-14.jpg">
+        <img src="images/Poland-7.jpg" alt="Polish Mountains">
+        <img src="images/Poland-8.jpg" alt="Gdansk, Poland">
+        <img src="images/Poland-15.jpg">
+        <img src="images/Poland-9.jpg" alt="Gdansk, Poland">
       </div>
-      <div class="leftnavigation">
-        <ul class="placenav">
-          <li><a href="#general">General information</a></li>
-          <li><a href="#atractions">Atractions</a></li>
-          <li><a href="#health">Health</a></li>
-          <li><a href="#documents">Formalities, documents, law</a></li>
-          <li><a href="#history">History</a></li>
-          <li><a href="#transport">Transportation</a></li>
-          <li><a href="#know">Good to know</a></li>
-          <li><a href="#weather">Weather</a></li>
-        </ul>
+      <div class="tralalala">
+        <div class="leftnavigation">
+          <ul class="placenav">
+            <li><a href="#general">General information</a></li>
+            <li><a href="#atractions">Atractions</a></li>
+            <li><a href="#health">Health</a></li>
+            <li><a href="#documents">Formalities, documents, law</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#transport">Transportation</a></li>
+            <li><a href="#know">Good to know</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#language">Weather</a></li>
+          </ul>
+        </div>
+        <section>
+          <div id="general">
+            <h1>General information</h1>
+            <p>Here you can find main information about Poland</p>
+          </div>
+          <div id="atractions">
+            <h1>Atractions</h1>
+            <p>Here you can read about main atractions</p>
+          </div>
+          <div id="health">
+            <h1>Health</h1>
+            <p>It's always good to know if you need any specail healt preperation</p>
+          </div>
+          <div id="documents">
+            <h1>Formalities, documents, law</h1>
+            <p>Do you need visa and passport or only your ID?</p>
+          </div>
+          <div id="history">
+            <h1>History</h1>
+            <p>Once upon a time...</p>
+          </div>
+          <div id="transport">
+            <h1>Transportation</h1>
+            <p>Train or car, this is the question</p>
+          </div>
+          <div id="know">
+            <h1>Good to know</h1>
+            <p>You need to try pierogi - traditional polish food.</p>
+            <p>Students have discounts in public transport, museums, etc.</p>
+          </div>
+          <div id="weather">
+            <h1>Weather</h1>
+            <p>You can find here information about weather.</p>
+          </div>
+          <div id="language">
+            <h1>Basic words</h1>
+            <p>Good morning! Dzień dobry!</p>
+          </div>
+        </section>
       </div>
-      <section>
-        <div id="general">
-          <h1>General information</h1>
-          <p>Here you can find main information about Poland</p>
-        </div>
-        <div id="atractions">
-          <h1>Atractions</h1>
-          <p>Here you can read about main atractions</p>
-        </div>
-        <div id="health">
-          <h1>Health</h1>
-          <p>It's always good to know if you need any specail healt preperation</p>
-        </div>
-        <div id="documents">
-          <h1>Formalities, documents, law</h1>
-          <p>Do you need visa and passport or only your ID?</p>
-        </div>
-        <div id="history">
-          <h1>History</h1>
-          <p>Once upon a time...</p>
-        </div>
-        <div id="transport">
-          <h1>Transportation</h1>
-          <p>Train or car, this is the question</p>
-        </div>
-        <div id="know">
-          <h1>Good to know</h1>
-          <p>You need to try pierogi - traditional polish food.</p>
-          <p>Students have discounts in public transport, museums, etc.</p>
-        </div>
-        <div id="weather">
-          <h1>Weather</h1>
-          <p>You can find here information about weather.</p>
-        </div>
-      </section>
+      <button type="button" name="button">Like</button>
     </main>
     <button class="button"><a href="index.html">BACK</a></button>
     <footer>
       <small>copyright 2018....</small>
     </footer>
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script>
+      $("button").on("click", function() {
+        alert("clicked!")
+      });
+    </script>
   </body>
 </html>

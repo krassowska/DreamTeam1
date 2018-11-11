@@ -36,15 +36,29 @@ header {
   vertical-align: middle;
 }
 .name {
-  padding-top: 20px;
-  font-size: 20px;
-  text-align: center;
   width: 50%;
   display: inline-block;
+  vertical-align: middle;
+}
+.name h1{
+  /*padding-top: 20px;*/
+  padding-left: 10px;
+  font-size: 30px;
+  /*text-align: center;*/
+  width: auto ;
+  display: inline-block;
+  vertical-align: middle;
+}
+.name img {
+  padding: 5px;
+  height: 90px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
 }
 nav{
   text-align: center;
-  width: 50%;
+  width: 49%;
   display: inline-block;
 }
 .navigation {
@@ -55,24 +69,42 @@ nav{
   font-size: 20px;
   margin: 5px 20px;
 }
+.navigation a {
+  color: rgb(216,215,217);
+  text-decoration: none;
+}
 .photos {
-  height: 150px;
+  height: 180px;
+  width: 100%;
   background-color: rgb(216,215,217);
   margin: 20px 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+/*https://stackoverflow.com/questions/718891/how-to-make-a-div-not-wrap*/
+.photos img {
+  border-radius: 10%;
+  height: 150px;
+  margin: 5px;
+  display: inline-block;
 }
 .leftnavigation {
+  width: 25%;
   display: inline-block;
-  width: 20%;
+  vertical-align: top;
 }
 .placenav li {
   margin: 5px 5px;
   padding: 8px;
   border: 2px solid grey;
   border-radius: 5px;
+  text-align: center;
 }
 section {
-  width: 79%;
+  width: 73%;
   display: inline-block;
+  margin: 10px;
 }
 ul.navigation li {
   display: inline-block;
@@ -83,13 +115,14 @@ li {
   list-style: none;
   margin: 5px;
 }
-.placenav {
-  position: relative;
-  left: 0;
+.placenav a {
+  color: black;
+  text-decoration: none;
 }
 main p {
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
+  padding-bottom: 20px;
 }
 .options {
   height: 100px;
