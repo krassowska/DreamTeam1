@@ -16,11 +16,22 @@ http://colrd.com/image-dna/25454/
   background: transparent;*/
 }
 body {
-  background-image: url("clouds6.jpg");
   background-color: rgba(249,210,25,.5);
   color: rgb(56,54,54);
   font-family: 'Rubik', verdana, arial, sans-serif;
   white-space-collapsing: discard;
+}
+.bg {
+    /* The image used */
+    background-image: url("clouds.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 header {
   background-color: rgb(56,54,54);
