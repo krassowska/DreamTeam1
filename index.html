@@ -2,57 +2,98 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>DreamTeam1</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
     <link href="images/favicon.png"  rel="icon">
-    <link href="styles/style.css" rel="stylesheet" type="text/css">
+    <title>Dream Holidays</title>
     <link href='thirdparty/css/bootstrap.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.3/css/bootstrap-slider.min.css" integrity="sha256-OtZEO9nZAHk5GocvW/Mozi3E3tWtBeBR/nt2U6jxwLQ=" crossorigin="anonymous" />
+    <link href="styles/css.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header class="places">
-      <div class="name">
-        <img src="images/sun2.png" alt="logo"><!--This comment delete white space
-        --><h1>Find your dream place!</h1>
-      </div><!--This comment delete white space
-      --><nav>
-        <ul class="navigation">
-          <li><a href="about.html">About</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <img src="" alt="">
-      <p><strong>Find place on your dream holidays!</strong></p>
-      <div class="options">cold or hot
-        <div class="slidecontainer options">
-          <input type="range" min="1" max="3" value="2" class="slider" id="myRange">
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid navigation-bar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--https://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo-->
+          <a href="#" class="navbar-left"><img class="logo" src="images/sun2.png"></a>
+          <h2 class="navbar-brand brand-name a">
+            <a class="" href="#">Find your dream place!</a>
+          </h2>
+        </div> <!-- /.navbar-header-->
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class=""><a href="index.html">Home</a></li>
+            <li class=""><a href="about.html">About</a></li>
+            <li class=""><a href="contact.html">Contact</a></li>
+            <!--<li class=""><a href="test.html">Test<span class="sr-only">(current)</span></a></li>-->
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="poland.html">Poland</a></li>
+                <li><a href="greece.html">Greece</a></li>
+                <!--<li class="dropdown-header">Poland</li>
+                <li><a href="poland.html">Warsaw</a></li>
+                <li><a href="poland.html">Tatry</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Greece</li>
+                <li><a href="greece.html">Greece</a></li>-->
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-->
+    </nav>
+
+    <div class="container round main-box">
+      <div class="row">
+        <div class="col-lg-12 col-centered">
+          <h1>Find place on your dream holidays!</h1>
+          <div class="">cold or hot
+            <div class="slidecontainer">
+              <input id="ex1" data-slider-id='ex1Slider' type="text" data-slider-min="0" data-slider-max="2" data-slider-step="1" data-slider-value="1"/>
+            </div>
+          </div>
+          <div class="">lazy or active
+            <div class="slidecontainer">
+              <input id="ex2" data-slider-id='ex2Slider' type="text" data-slider-min="0" data-slider-max="2" data-slider-step="1" data-slider-value="1"/>
+              <!--<input type="range" min="1" max="3" value="2" class="slider" id="myRange">-->
+            </div>
+          </div>
+          <div class="">city or wild
+            <div class="slidecontainer">
+              <input id="ex3" data-slider-id='ex3Slider' type="text" data-slider-min="0" data-slider-max="2" data-slider-step="1" data-slider-value="1"/>
+            </div>
+          </div>
+          <p><a class="btn btn-lg btn-primary find-button" href="" role="button">Find</a></p>
         </div>
-      </div>
-      <div class="options">lazy or active
-        <div class="slidecontainer options">
-          <input type="range" min="1" max="3" value="2" class="slider" id="myRange">
-        </div>
-      </div>
-      <div class="options">city or wild
-        <div class="slidecontainer options">
-          <input type="range" min="1" max="3" value="2" class="slider" id="myRange">
-        </div>
-      </div>
-      <div class="options">dates</div>
-      <div class="options">
-        <button class="button">FIND</button>
-      </div>
-      <article></article>
-    </main>
-    <button class="button"><a href="poland.html">Poland</a></button>
-    <footer>
-      <small>copyright 2018....</small>
+      </div><!-- /row -->
+    </div><!-- /container -->
+
+
+    <footer class="footer">
+      <div class="container">
+        <p>:)</p>
+      </div> <!-- /container -->
     </footer>
-    <!--
-    <script src="">
-    <script type="text/javascript">
-    </script>
-    -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="thirdparty/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.3/bootstrap-slider.min.js" integrity="sha256-5nbI9tCmHZc4BwASrfLC1vJlG4NEVJrqF2v5AkPagHk=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
   </body>
 </html>
