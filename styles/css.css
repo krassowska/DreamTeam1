@@ -64,6 +64,11 @@ body {
   margin-top: 100px;
   color: #2d2746;
 }
+.place-box {
+  background-color: rgba(255,250,250,.5);
+  margin-top: 100px;
+  color: #2d2746;
+}
 
 .slidecontainer {
   margin: 30px 5px;
