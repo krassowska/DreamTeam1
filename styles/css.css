@@ -10,8 +10,9 @@ body {
   margin-top: 60px;
   /* Margin bottom by footer height */
   margin-bottom: 30px;
-  background-color: #91a5b6;
-  background-image: url("../images/background3.jpg");
+  background-color: #7c8291;
+  background-image: url("../images/background3small.jpg");
+  /*background-image: url("../images/background3.jpg");*/
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
