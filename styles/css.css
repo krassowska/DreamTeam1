@@ -150,3 +150,29 @@ https://codepen.io/jaycbrf/pen/iBszr
 .footer p {
   margin: 0;
 }
+
+.carousel-inner {
+  max-height: 200px;
+}
+
+#carouselExample {
+  margin-top: 40px;
+}
+.d-block {
+  max-width: 270px;
+}
+
+.list-group, .bhoechie-tab-content {
+  border-radius: 20px;
+  border: 2px solid rgba(240, 240, 255, 1);
+}
+
+#first-on-list {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#last-on-list {
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
