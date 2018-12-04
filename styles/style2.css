@@ -1,0 +1,188 @@
+/*Color palette: http://colrd.com/image-dna/23291/
+#f88aaf
+#a1d8b1
+#edfcc2
+#60bdae
+#455655
+http://colrd.com/image-dna/25454/
+*/
+* {
+  margin: 0;
+  padding: 0;
+  /*border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;*/
+}
+body {
+  background-color: rgba(249,210,25,.5);
+  color: rgb(56,54,54);
+  font-family: 'Rubik', verdana, arial, sans-serif;
+  white-space-collapsing: discard;
+}
+header {
+  background-color: rgb(56,54,54);
+  color: rgb(216,215,217);
+  height: 100px;
+  vertical-align: middle;
+}
+.places{
+  position: sticky;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  top: 0;
+  z-index: 1;
+  vertical-align: middle;
+}
+.name {
+  width: 50%;
+  display: inline-block;
+  vertical-align: middle;
+}
+.name h1{
+  /*padding-top: 20px;*/
+  padding-left: 10px;
+  font-size: 30px;
+  /*text-align: center;*/
+  width: auto ;
+  display: inline-block;
+  vertical-align: middle;
+}
+.name img {
+  padding: 5px;
+  height: 90px;
+  width: auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+nav{
+  text-align: center;
+  width: 49%;
+  display: inline-block;
+}
+.navigation {
+  display: inline-block;
+}
+.navigation li {
+  text-align:center;
+  font-size: 20px;
+  margin: 5px 20px;
+}
+.navigation a {
+  color: rgb(216,215,217);
+  text-decoration: none;
+}
+.photos {
+  height: 180px;
+  width: 100%;
+  background-color: rgb(216,215,217);
+  margin: 20px 0;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+/*https://stackoverflow.com/questions/718891/how-to-make-a-div-not-wrap*/
+.photos img {
+  border-radius: 10%;
+  height: 150px;
+  margin: 5px;
+  display: inline-block;
+}
+.leftnavigation {
+  width: 25%;
+  display: inline-block;
+  vertical-align: top;
+}
+.placenav li {
+  margin: 5px 5px;
+  padding: 8px;
+  border: 2px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
+section {
+  width: 73%;
+  display: inline-block;
+  margin: 10px;
+}
+ul.navigation li {
+  display: inline-block;
+  padding-right: 10px;
+}
+li {
+  /*Remove bullet points */
+  list-style: none;
+  margin: 5px;
+}
+.placenav a {
+  color: black;
+  text-decoration: none;
+}
+main p {
+  text-align: center;
+  font-size: 25px;
+  padding-bottom: 20px;
+}
+.options {
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+.button {
+  /*https://www.w3schools.com/css/css3_buttons.asp*/
+  background-color: #a1d8b1;
+  border: none;
+  color: #455655;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  border: 2px solid #455655;
+}
+/*Changing color*/
+.button:hover {
+  background-color: #a1d8b1;
+  color: #455655;
+}
+footer {
+  background-color: #455655;
+  color: #edfcc2;
+  text-align:center;
+}
+
+/*https://www.w3schools.com/howto/howto_js_rangeslider.asp*/
+.slider {
+  -webkit-appearance: none;
+  width: 50%;
+  height: 15px;
+  border-radius: 5px;
+  background: rgb(101,100,95);
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: #4CAF50;
+  cursor: pointer;
+}

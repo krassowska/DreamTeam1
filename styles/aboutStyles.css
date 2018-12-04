@@ -1,0 +1,18 @@
+body {
+  background-image: url("../images/background2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  /*background-color: #cccccc;*/
+}
+
+.jumbotron{
+  background-color: transparent;
+}
+.button{
+  width: 200px;
+  margin: auto;
+  display: block;
+}
