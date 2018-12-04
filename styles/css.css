@@ -156,7 +156,7 @@ https://codepen.io/jaycbrf/pen/iBszr
 }
 
 #carouselExample {
-  margin-top: 40px;
+  margin-top: 20px;
 }
 .d-block {
   max-width: 270px;
@@ -175,4 +175,11 @@ https://codepen.io/jaycbrf/pen/iBszr
 #last-on-list {
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+}
+
+.place_title {
+  color: #ffc601;
+  font-family: 'Pacifico', cursive;
+  font-size: 40px;
+  margin-top: 30px;
 }
