@@ -31,22 +31,22 @@ $('#find').click(
       window.location.href = "poland.html";
     }
     else if (temperature==0 && activity==0 && place==1) {
-      window.location.href = "zakopane.html";
+      window.location.href = "new.html";
     }
 		else if (temperature==0 && activity==1 && place==0) {
-      window.location.href = "zakopane.html";
+      window.location.href = "new.html";
     }
 		else if (temperature==0 && activity==1 && place==1) {
-      window.location.href = "zakopane.html";
+      window.location.href = "tatry.html";
     }
 		else if (temperature==1 && activity==0 && place==0) {
-      window.location.href = "zakopane.html";
+      window.location.href = "new.html";
     }
 		else if (temperature==1 && activity==0 && place==1) {
-      window.location.href = "zakopane.html";
+      window.location.href = "new.html";
     }
 		else if (temperature==1 && activity==1 && place==0) {
-      window.location.href = "zakopane.html";
+      window.location.href = "new.html";
     }
 		else if (temperature==1 && activity==1 && place==1) {
       window.location.href = "greece.html";
