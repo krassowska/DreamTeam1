@@ -1,36 +1,54 @@
 //Start
 //https://seiyria.com/bootstrap-slider/
 // Without JQuery
-var x, y, z;
+var temperature, activity, place;
 
 var slider1 = new Slider('#ex1', {
 	formatter: function(value) {
-    x = value;
+    temperature = value;
 		return 'Current value: ' + value;
 	}
 });
 
 var slider2 = new Slider('#ex2', {
 	formatter: function(value) {
-    y = value;
+    activity = value;
 		return 'Current value: ' + value;
 	}
 });
 
 var slider3 = new Slider('#ex3', {
 	formatter: function(value) {
-    z = value;
+    place = value;
 		return 'Current value: ' + value;
 	}
 });
 
 $('#find').click(
   function() {
-    console.log('' + x + ',' + y + ',' + z)
-    if (x==0 && y==0 && z==0) {
+    console.log('' + temperature + ',' + activity + ',' + place)
+    if (temperature==0 && activity==0 && place==0) {
       window.location.href = "poland.html";
     }
-    else if (x==1 && y==1 && z==1) {
+    else if (temperature==0 && activity==0 && place==1) {
+      window.location.href = "zakopane.html";
+    }
+		else if (temperature==0 && activity==1 && place==0) {
+      window.location.href = "zakopane.html";
+    }
+		else if (temperature==0 && activity==1 && place==1) {
+      window.location.href = "zakopane.html";
+    }
+		else if (temperature==1 && activity==0 && place==0) {
+      window.location.href = "zakopane.html";
+    }
+		else if (temperature==1 && activity==0 && place==1) {
+      window.location.href = "zakopane.html";
+    }
+		else if (temperature==1 && activity==1 && place==0) {
+      window.location.href = "zakopane.html";
+    }
+		else if (temperature==1 && activity==1 && place==1) {
       window.location.href = "greece.html";
     }
   }
