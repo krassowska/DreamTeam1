@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="images/favicon.png"  rel="icon">
+    <title>Dream Holidays</title>
+    <link href='thirdparty/css/bootstrap.css' rel='stylesheet'>
+    <link href='thirdparty/css/style.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.3/css/bootstrap-slider.min.css" integrity="sha256-OtZEO9nZAHk5GocvW/Mozi3E3tWtBeBR/nt2U6jxwLQ=" crossorigin="anonymous" />
+    <link href="styles/css.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid navigation-bar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--https://stackoverflow.com/questions/18474564/bootstrap-3-navbar-with-logo-->
+          <a href="index.html" class="navbar-left"><img class="logo" src="images/sun2.png"></a>
+          <h2 class="navbar-brand brand-name a">
+            <a class="" href="index.html">Find your dream place!</a>
+          </h2>
+        </div> <!-- /.navbar-header-->
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li class=""><a href="index.html">Home</a></li>
+            <li class=""><a href="intro.html">Intro</a></li>
+            <li class=""><a href="about.html">About</a></li>
+            <li class=""><a href="contact.html">Contact</a></li>
+            <!--<li class=""><a href="test.html">Test<span class="sr-only">(current)</span></a></li>-->
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Places<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="poland.html">Poland</a></li>
+                <li><a href="greece.html">Greece</a></li>
+                <!--<li class="dropdown-header">Poland</li>
+                <li><a href="poland.html">Warsaw</a></li>
+                <li><a href="poland.html">Tatry</a></li>
+                <li role="separator" class="divider"></li>
+                <li class="dropdown-header">Greece</li>
+                <li><a href="greece.html">Greece</a></li>-->
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-->
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <h1 class="place_title">Cooming soon</h1>
+        </div>
+      </div>
+    </div>
+    <!--
+    <div class="container karuzela">
+      <div id="carouselExample" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner row w-100 mx-auto" role="listbox">
+          <div class="carousel-item col-md-3 active">
+            <img class="img-fluid mx-auto d-block" src="images/Poland-7.jpg">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="images/Poland-2.jpg">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="images/Poland-4.jpg">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="images/Poland-5.jpg">
+          </div>
+          <div class="carousel-item col-md-3">
+            <img class="img-fluid mx-auto d-block" src="images/Poland-6.jpg">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+          <i class="fa fa-chevron-left fa-lg text-muted"></i>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+          <i class="fa fa-chevron-right fa-lg text-muted"></i>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+    -->
+    <!-- https://bootsnipp.com/snippets/featured/simple-vertical-tab -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bhoechie-tab-container">
+          <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3 bhoechie-tab-menu">
+            <div class="list-group">
+              <a href="#general" class="list-group-item active text-center" id="first-on-list">
+                General information
+              </a>
+              <a href="#atractions" class="list-group-item text-center">
+                Atractions
+              </a>
+              <a href="#health" class="list-group-item text-center">
+                Formalities and law
+              </a>
+              <a href="#documents" class="list-group-item text-center">
+                Good to know
+              </a>
+              <a href="#transport" class="list-group-item text-center">
+                Health
+              </a>
+              <a href="#know" class="list-group-item text-center">
+                Language
+              </a>
+              <a href="#weather" class="list-group-item text-center">
+                Transportation
+              </a>
+              <a href="#language" class="list-group-item text-center" id="last-on-list">
+                Weather
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 bhoechie-tab">
+            <!-- flight section -->
+            <div class="bhoechie-tab-content active">
+              <center>
+                <h2 style="margin-top: 0;color:#2d2746">General information</h2>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Cooming soon</h3>
+              </center>
+            </div>
+            <!-- train section -->
+            <div class="bhoechie-tab-content">
+              <center>
+                <h2 style="margin-top: 0;color:#2d2746">Atractions</h2>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Cooming soon</h3>
+              </center>
+            </div>
+
+            <!-- hotel search -->
+            <div class="bhoechie-tab-content">
+              <center>
+                <h2 style="margin-top: 0;color:#2d2746">Formalities and law</h2>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Cooming soon</h3>
+              </center>
+            </div>
+            <div class="bhoechie-tab-content">
+              <center>
+                <h2 style="margin-top: 0;color:#2d2746">Good to know</h2>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Cooming soon</h3>
+              </center>
+            </div>
+            <div class="bhoechie-tab-content">
+              <center>
+                <h2 style="margin-top: 0;color:#2d2746">Health</h2>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Vaccinations</h3>
+                <p style="margin-top: 0;color:#2d2746;text-align:left;font-size:18px;">Cooming soon</p>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Dangerous animals</h3>
+                <p style="margin-top: 0;color:#2d2746;text-align:left;font-size:18px;">Cooming soon</p>
+              </center>
+            </div>
+            <div class="bhoechie-tab-content">
+              <center>
+                <h2 style="margin-top: 0;color:#2d2746">Language</h2>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Cooming soon</h3>
+              </center>
+            </div>
+            <div class="bhoechie-tab-content">
+              <center>
+                <h2 style="margin-top: 0;color:#2d2746">Transportation</h2>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Cooming soon</h3>
+              </center>
+            </div>
+            <div class="bhoechie-tab-content">
+              <center>
+                <h2 style="margin-top: 0;color:#2d2746">Weather</h2>
+                <h3 style="margin-top: 0;color:#2d2746;text-align:left;">Cooming soon</h3>
+              </center>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--<button class="btn btn-default"><a href="index.html">Back</a></button>-->
+
+    <footer class="footer">
+      <div class="container">
+        <p>Created by <a href="https://github.com/krassowska">Karolina Krassowska</a> and <a href="https://github.com/AnnaGia">Anna Giannatou</a></p>
+      </div> <!-- /container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="thirdparty/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.3/bootstrap-slider.min.js" integrity="sha256-5nbI9tCmHZc4BwASrfLC1vJlG4NEVJrqF2v5AkPagHk=" crossorigin="anonymous"></script>
+    <script src="thirdparty/js/script.js"></script>
+
+<!--    <script type="text/javascript" src="scripts/script.js"></script>-->
+  </body>
+</html>
