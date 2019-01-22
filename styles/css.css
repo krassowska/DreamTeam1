@@ -141,14 +141,18 @@ https://codepen.io/jaycbrf/pen/iBszr
   width: 100%;
   /*background-color: #f5f5f5;*/
   /*color: #e3edf3;*/
-  height: 30px;
-  background-color: #8b8d8e;
-  color: #062438;
+  height: 35px;
+  background-color: #2e3b5282;
+  color: #d0dff982;
   text-align: center;
-  padding-top: 3px;
+  padding-top: 6px;
+  border-top: 1px solid #2d2d4a8c;
 }
 .footer p {
   margin: 0;
+}
+.footer a {
+  color: #c6daea;
 }
 
 .carousel-inner {
